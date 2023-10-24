@@ -9,6 +9,7 @@ import TakeTest from "@/components/TakeTest";
 import WorkWithUs from "@/components/WorkWithUs";
 import Vacancies from "@/components/Vacancies";
 import Download from "@/components/Download";
+import SubFeature from "@/components/SubFeature";
 
 export default function Home() {
   return (
@@ -18,6 +19,10 @@ export default function Home() {
         <Features/>
         <Build/>
         <SelfImprovement/>
+        <SubFeature
+            sectionOne={'Now having your own emotions under control might be holding you back'}
+            sectionTwo={'Additionally, not understanding those of others stops you from being parent, friend you can be.'}
+        />
         <AboutOthers/>
         <TakeTest/>
         <WorkWithUs/>
