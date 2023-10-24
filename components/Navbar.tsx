@@ -15,7 +15,7 @@ const Navbar = () => {
         return null;
     }
     return (
-        <nav className={'fixed bg-white py-2 md:py-3 px-2 md:px-10 lg:px-20 flex w-full justify-between items-center'}>
+        <nav className={'z-20 fixed bg-white py-2 md:py-3 px-2 md:px-10 lg:px-20 flex w-full justify-between items-center'}>
             <div className={'h-10 md:h-12 w-10 md:w-12'}>
                 <Image src={logo} alt={''}/>
             </div>

@@ -65,7 +65,7 @@ const Features = () => {
                 sectionOne={'People with high emotional intelligence (EQ) live more fulfilled lives. They tend to be happier and have healthier relationships.'}
                 sectionTwo={'They are more successful in their pursuits and make for inspiring leaders. According to science, they earn $29k a year.'}
             />
-            <div className={'px-4 pt-10 pb-4 md:pt-14 md:pb-4 lg:pt-20 lg:pb-4'}>
+            <div className={'px-4 pt-10 pb-4 md:pt-14 md:pb-4 lg:pt-20 lg:px-20 lg:pb-4'}>
                 <div className={'flex items-center gap-4 lg:gap-8'}>
                     <motion.h1
                         className={'text-3xl md:text-4xl lg:text-5xl font-bold'}
