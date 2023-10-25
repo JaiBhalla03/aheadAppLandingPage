@@ -36,7 +36,7 @@ To run the "Ahead" landing page project on your local machine, follow these step
 
 1. Clone the repository to your local machine using Git:
    ```bash
-   git clone https://github.com/yourusername/ahead-landing-page.git
+   git clone https://github.com/JaiBhalla03/aheadAppLandingPage.git
 
 2. Navigate to the project directory:
    ```bash
@@ -57,7 +57,7 @@ To run the "Ahead" landing page project on your local machine, follow these step
 5. Open your web browser and visit http://localhost:3000 to view the "Ahead" landing page locally.
 
 ## Demo
-You can view a live demo of the "Ahead" landing page at https://www.ahead-landing-page.com.
+You can view a live demo of the "Ahead" landing page at https://ahead-app-landing-page.vercel.app/
 
 ##License
 This project is open-source and available under the MIT License. Feel free to use and modify it as needed for your projects.
