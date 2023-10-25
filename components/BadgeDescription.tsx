@@ -41,7 +41,7 @@ const BadgeDescription:React.FC<BadgeDescriptionProps> = ({badge, heading}) => {
         },
     };
     return (
-        <div className={'flex flex-col items-center gap-4 w-72 h-20'}>
+        <div className={'flex flex-col items-center gap-2 sm:gap-4 w-72 h-20'}>
             <motion.div
                 ref={ref}
                 initial="hidden"

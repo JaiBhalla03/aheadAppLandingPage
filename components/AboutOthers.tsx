@@ -75,16 +75,17 @@ const AboutOthers = () => {
         }
     }
 
+
     return (
-        <div className={'px-10 pt-20'}>
-            <div className={'bg-[#edf8fe] rounded-[2rem] p-28 flex flex-col gap-4'}>
-                <div className={'flex items-center justify-center text-xl font-medium'}>
+        <div className={'px-0 xl:px-10 pt-20'}>
+            <div className={'bg-[#edf8fe] rounded-[2rem] p-4 md:p-28 flex flex-col gap-2 sm:gap-4'}>
+                <div className={'flex items-center text-center justify-center text-md md:text-xl font-medium'}>
                     Let your friends, family, and co-workers (anonymously) rate your social skills.
                 </div>
-                <div className={'flex items-center justify-center text-5xl font-bold'}>
+                <div className={'flex items-center text-center justify-center text-2xl sm:text-3xl md:text-5xl font-bold'}>
                     Ever wondered what others think of you?
                 </div>
-                <div className={'relative line w-fit mx-auto mt-20'}>
+                <div className={'hidden lg:block relative line w-fit mx-auto mt-20'}>
                     <svg width="800" height="4" viewBox="0 0 828 4" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M797.526 2C1035.43 1.99998 -203.664 1.99998 29.2864 2" stroke="#f3d7a8" stroke-width="3" stroke-dasharray="20 20"/>
                     </svg>
@@ -105,7 +106,12 @@ const AboutOthers = () => {
                         <BadgeDescription badge={badge3} heading={'Find out where you and others see things the same way - and where not!'}/>
                     </div>
                 </div>
-                <div className={'flex justify-center mt-32'}>
+                <div className={'flex h-96 flex-col gap-10 items-center lg:hidden'}>
+                    <BadgeDescription badge={badge1} heading={'Answers question on your social skills'}/>
+                    <BadgeDescription badge={badge2} heading={'Let others anonymously answer the same question about you'}/>
+                    <BadgeDescription badge={badge3} heading={'Find out where you and others see things the same way - and where not!'}/>
+                </div>
+                <div className={'hidden md:flex justify-center mt-32'}>
                     <div className={'shadow-gray-200 shadow-xl bg-white h-64 w-[50rem] rounded-2xl flex justify-center items-center p-10'}>
                         <div className={'relative border-t-2 border-gray-400 border-solid w-full'}>
                             <motion.div

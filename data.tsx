@@ -54,3 +54,30 @@ export const cardData = [
         )
     }
 ];
+
+export const selfImprovementCardData = [
+    {
+        heading: 'It\'s not as easy as 1-2-3.',
+        description: 'The journey of change may be long, but our sessions are quick. We get to the point and tell you what you want to know (and nothing else).'
+    },
+    {
+        heading: 'Old habits are hard to break',
+        description: 'And bad behaviours die hard. Fortunately, we give you great, science-backed techniques to use.'
+    },
+    {
+        heading: 'You and your motivation don\'t have a long-term relationship.',
+        description: 'Luckily, we can proactively prepare you for the marathon, not just the race. Effective, memorable exercises will help you stick to your goals.'
+    },
+    {
+        heading: 'It\'s not as easy as 1-2-3.',
+        description: 'The journey of change may be long, but our sessions are quick. We get to the point and tell you what you want to know (and nothing else).'
+    },
+    {
+        heading: 'Old habits are hard to break',
+        description: 'And bad behaviours die hard. Fortunately, we give you great, science-backed techniques to use.'
+    },
+    {
+        heading: 'You and your motivation don\'t have a long-term relationship.',
+        description: 'Luckily, we can proactively prepare you for the marathon, not just the race. Effective, memorable exercises will help you stick to your goals.'
+    }
+]
