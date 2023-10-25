@@ -4,6 +4,7 @@ import Image from "next/image";
 import logo from '../public/images/ahead-logo.png'
 import {Menu} from "lucide-react";
 import {Sheet, SheetContent, SheetDescription, SheetFooter, SheetHeader, SheetTitle, SheetTrigger, SheetClose} from "@/components/ui/sheet";
+import Link from "next/link";
 
 
 const Navbar = () => {
@@ -20,15 +21,15 @@ const Navbar = () => {
                 <Image src={logo} alt={''}/>
             </div>
             <ul className={'hidden md:flex items-center gap-2 sm:gap-4 lg:gap-8 font-semibold text-gray-700 text-sm'}>
-               <li>Emotions</li>
-               <li>Manifesto</li>
-                <li>Self-awareness test</li>
-                <li>Work With Us</li>
+               <Link href={'/#emotions'} className={'cursor-pointer hover:underline'}>Emotions</Link>
+               <Link href={'/#manifesto'} className={'cursor-pointer hover:underline'}>Manifesto</Link>
+                <Link href={'/#test'} className={'cursor-pointer hover:underline'}>Self-awareness test</Link>
+                <Link href={'/#workwithus'} className={'cursor-pointer hover:underline'}>Work With Us</Link>
             </ul>
             <div className={'hidden md:flex items-center justify-center'}>
-                <button className={'bg-black text-gray-100 rounded-full px-6 py-3 text-sm font-semibold'}>
+                <a href={'https://apps.apple.com/us/app/ahead-emotions-coach/id1570430177?mt=8'} target="_blank" className={'cursor-pointer bg-black text-gray-100 rounded-full px-6 py-3 text-sm font-semibold'}>
                     Download app
-                </button>
+                </a>
             </div>
             <div className={'block md:hidden text-black'}>
                 <Sheet>
@@ -46,15 +47,15 @@ const Navbar = () => {
                         </div>
                         <div className={'pt-20 flex flex-col gap-8'}>
                             <ul className={'text-gray-700 flex flex-col gap-8'}>
-                                <li>Emotions</li>
-                                <li>Manifesto</li>
-                                <li>Self-awareness test</li>
-                                <li>Work With Us</li>
+                                <Link href={'/#emotions'} className={'cursor-pointer hover:underline'}>Emotions</Link>
+                                <Link href={'/#manifesto'} className={'cursor-pointer hover:underline'}>Manifesto</Link>
+                                <Link href={'/#test'} className={'cursor-pointer hover:underline'}>Self-awareness test</Link>
+                                <Link href={'/#workwithus'} className={'cursor-pointer hover:underline'}>Work With Us</Link>
                             </ul>
                             <div className={'flex items-center'}>
-                                <button className={'bg-black text-gray-100 rounded-full px-6 py-3 text-sm font-semibold'}>
+                                <a href={'https://apps.apple.com/us/app/ahead-emotions-coach/id1570430177?mt=8'} target="_blank" className={'bg-black text-gray-100 rounded-full px-6 py-3 text-sm font-semibold'}>
                                     Download app
-                                </button>
+                                </a>
                             </div>
                         </div>
                     </SheetContent>

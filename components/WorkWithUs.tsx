@@ -62,7 +62,7 @@ const WorkWithUs = () => {
         }
     }
     return (
-        <div className={'px-0 lg:px-10 pt-10'}>
+        <div id={'workwithus'} className={'px-0 lg:px-10 pt-10'}>
             <div className={'overflow-hidden bg-[#f3f1ff] lg:h-[47rem] px-2 md:px-14 py-20 w-full rounded-[2rem]'}>
                 <div>
                     <div className={'flex flex-col md:flex-row w-full justify-between'}>

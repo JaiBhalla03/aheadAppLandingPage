@@ -62,7 +62,7 @@ const TakeTest = () => {
         },
     };
     return (
-        <div className={'h-screen flex flex-col gap-2 gap-4 justify-center items-center'}>
+        <div id={'test'} className={'h-screen flex flex-col gap-2 gap-4 justify-center items-center'}>
             <motion.div
                 className={'font-semibold text-md md:text-lg text-gray-800'}
                 ref={ref}

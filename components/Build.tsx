@@ -83,7 +83,7 @@ const Build = () => {
     }
 
     return (
-        <div className={'relative pt-10 px-0 xl:px-10'}>
+        <div id={'manifesto'} className={'relative pt-10 px-0 xl:px-10'}>
             <div className={'relative bg-[#fef7f1] flex md:h-screen rounded-[2rem] overflow-hidden flex flex-col md:flex-row px-4 md:px-14 py-20 md:py-32'}>
                 <div className={'block md:hidden'}>
                     <div
