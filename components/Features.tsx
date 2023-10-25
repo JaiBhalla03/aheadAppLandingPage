@@ -69,6 +69,7 @@ const Features = () => {
                 <div className={'flex items-center gap-4 lg:gap-8'}>
                     <motion.h1
                         className={'text-3xl md:text-4xl lg:text-5xl font-bold'}
+                        ref={ref}
                         initial="hidden"
                         animate={inView ? 'visible' : 'hidden'}
                         variants={headingVariants}
