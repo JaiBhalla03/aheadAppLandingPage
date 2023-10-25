@@ -6,7 +6,7 @@ import {useInView} from "react-intersection-observer";
 
 const Vacancies = () => {
     const {ref, inView} = useInView({
-        triggerOnce: false
+        triggerOnce: true
     })
     const headingVariants = {
         hidden: {

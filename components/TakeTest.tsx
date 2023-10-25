@@ -5,7 +5,7 @@ import {useInView} from "react-intersection-observer";
 
 const TakeTest = () => {
     const { ref, inView } = useInView({
-        triggerOnce: false, // Trigger the animation only once
+        triggerOnce: true
     });
     const headingVariants = {
         hidden: {

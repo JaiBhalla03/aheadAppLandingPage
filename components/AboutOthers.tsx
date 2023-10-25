@@ -10,7 +10,7 @@ import BadgeDescription from "@/components/BadgeDescription";
 
 const AboutOthers = () => {
     const { ref, inView } = useInView({
-        triggerOnce: false
+        triggerOnce: true
     });
 
     const otherVariants1 = {

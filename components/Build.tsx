@@ -10,7 +10,7 @@ import badge from '../public/images/badge.png'
 
 const Build = () => {
     const { ref, inView } = useInView({
-        triggerOnce: false
+        triggerOnce: true
     });
     const headingVariants = {
         hidden: {

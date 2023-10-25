@@ -11,7 +11,7 @@ interface BadgeDescriptionProps{
 
 const BadgeDescription:React.FC<BadgeDescriptionProps> = ({badge, heading}) => {
     const {ref, inView} = useInView({
-        triggerOnce: false
+        triggerOnce: true
     })
     const badgeVariants = {
         hidden: {

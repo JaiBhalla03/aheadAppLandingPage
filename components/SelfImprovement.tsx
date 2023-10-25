@@ -12,7 +12,7 @@ const SelfImprovement = () => {
     const [activeIndex, setActiveIndex] = useState(0);
     const scrollContainerRef = useRef(null);
     const {ref, inView} = useInView({
-        triggerOnce: false
+        triggerOnce: true
     })
     const headingVariant = {
         hidden: {
