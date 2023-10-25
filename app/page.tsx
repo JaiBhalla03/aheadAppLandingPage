@@ -13,7 +13,7 @@ import SubFeature from "@/components/SubFeature";
 
 export default function Home() {
   return (
-    <main>
+    <main className={'overflow-hidden'}>
         <Navbar/>
         <Hero/>
         <Features/>

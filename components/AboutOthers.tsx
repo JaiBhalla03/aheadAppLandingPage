@@ -106,7 +106,7 @@ const AboutOthers = () => {
                     </div>
                 </div>
                 <div className={'flex justify-center mt-32'}>
-                    <div className={'bg-white h-64 w-[50rem] rounded-2xl flex justify-center items-center p-10'}>
+                    <div className={'shadow-gray-200 shadow-xl bg-white h-64 w-[50rem] rounded-2xl flex justify-center items-center p-10'}>
                         <div className={'relative border-t-2 border-gray-400 border-solid w-full'}>
                             <motion.div
                                 className={'absolute top-2 left-3 flex flex-col gap-4 items-end'}
