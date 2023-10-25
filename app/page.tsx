@@ -1,3 +1,4 @@
+'use client';
 import Image from 'next/image'
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
@@ -10,10 +11,50 @@ import WorkWithUs from "@/components/WorkWithUs";
 import Vacancies from "@/components/Vacancies";
 import Download from "@/components/Download";
 import SubFeature from "@/components/SubFeature";
+import {useEffect, useState} from "react";
+import {motion} from 'framer-motion';
 
 export default function Home() {
+    const [mousePosition, setMousePosition] = useState({
+        x: 0,
+        y: 0
+    });
+    const [cursorVariant, setCursorVariant] = useState("default");
+
+
+    useEffect(() => {
+        const mouseMove = (e: MouseEvent): void => {
+            setMousePosition({
+                x: e.clientX,
+                y: e.clientY
+            })
+        }
+
+        window.addEventListener("mousemove", mouseMove);
+
+        return () => {
+            window.removeEventListener("mousemove", mouseMove);
+        }
+    }, []);
+
+    const cursorVariants = {
+        default: {
+            x: mousePosition.x - 16,
+            y: mousePosition.y - 16,
+        },
+        text: {
+            x: mousePosition.x - 75,
+            y: mousePosition.y - 75,
+            mixBlendMode: "difference" as any
+        }
+    }
   return (
     <main className={'overflow-hidden'}>
+        <motion.div
+            className='cursor'
+            variants={cursorVariants}
+            animate={cursorVariant}
+        />
         <Navbar/>
         <Hero/>
         <Features/>

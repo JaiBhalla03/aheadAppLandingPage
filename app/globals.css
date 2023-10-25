@@ -6,6 +6,19 @@
 
 *{
   font-family: 'Poppins', sans-serif;
+  cursor: none;
+}
+
+.cursor {
+  background-color: #111;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  z-index: 40;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
 }
  
 @layer base {
@@ -124,6 +137,28 @@ html{
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #888888;
+}
+
+.custom-scrollbar2{
+  scrollbar-width: thin;
+  scrollbar-color: #b5a3fa;
+}
+
+.custom-scrollbar2::-webkit-scrollbar {
+  width: 0px;
+}
+
+.custom-scrollbar2::-webkit-scrollbar-track {
+  background: #f3f1ff;
+}
+
+.custom-scrollbar2::-webkit-scrollbar-thumb {
+  background: #b5a3fa;
+  border-radius: 0px;
+}
+
+.custom-scrollbar2::-webkit-scrollbar-thumb:hover {
   background-color: #888888;
 }
 

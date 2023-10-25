@@ -19,8 +19,8 @@ export const cardData = [
     },
     {
         cardNo: 3,
-        heading: 'Heading 3',
-        description: 'Description 3',
+        heading: 'You are angry with a colleague',
+        description: 'You get angry and defensive, instead of staying open and working towards common ground',
         backgroundColor: '#eeebfe',
         svg: (
             <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="32" fill="#ffdd67" r="30"/><g fill="#664e27"><circle cx="20.5" cy="27.6" r="5"/><circle cx="43.5" cy="27.6" r="5"/><path d="m38.9 48h-13.8c-1.5 0-1.5-4 0-4h13.7c1.6 0 1.6 4 .1 4"/></g></svg>
@@ -28,8 +28,8 @@ export const cardData = [
     },
     {
         cardNo: 4,
-        heading: 'Heading 4',
-        description: 'Description 4',
+        heading: 'You get a promotion at work',
+        description: 'You question yourself and wonder when they\'ll realize you\'re an unqualified imposter, instead of trusting yourself & your abilities.',
         backgroundColor: '#eeebfe',
         svg: (
             <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="32" fill="#ffdd67" r="30"/><g fill="#664e27"><circle cx="20.5" cy="26.6" r="5"/><circle cx="43.5" cy="26.6" r="5"/><path d="m44.6 40.3c-8.1 5.7-17.1 5.6-25.2 0-1-.7-1.8.5-1.2 1.6 2.5 4 7.4 7.7 13.8 7.7s11.3-3.6 13.8-7.7c.6-1.1-.2-2.3-1.2-1.6"/></g></svg>
@@ -37,8 +37,8 @@ export const cardData = [
     },
     {
         cardNo: 5,
-        heading: 'Heading 5',
-        description: 'Description 5',
+        heading: 'You are angry with a colleague',
+        description: 'You get angry and defensive, instead of staying open and working towards common ground',
         backgroundColor: '#eeebfe',
         svg: (
             <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="32" fill="#ffdd67" r="30"/><g fill="#ff717f"><circle cx="50.8" cy="36" opacity=".8" r="8"/><circle cx="13.2" cy="36" opacity=".8" r="8"/></g><g fill="#664e27"><path d="m44.6 40.3c-8.1 5.7-17.1 5.6-25.2 0-1-.7-1.8.5-1.2 1.6 2.5 4 7.4 7.7 13.8 7.7s11.3-3.6 13.8-7.7c.6-1.1-.2-2.3-1.2-1.6"/><path d="m28.5 26.9c-1.9-5.1-4.7-7.7-7.5-7.7s-5.6 2.6-7.5 7.7c-.2.5.8 1.4 1.3.9 1.8-1.9 4-2.7 6.2-2.7s4.4.8 6.2 2.7c.6.5 1.5-.4 1.3-.9"/><path d="m50.4 26.9c-1.9-5.1-4.7-7.7-7.5-7.7s-5.6 2.6-7.5 7.7c-.2.5.8 1.4 1.3.9 1.8-1.9 4-2.7 6.2-2.7s4.4.8 6.2 2.7c.5.5 1.5-.4 1.3-.9"/></g></svg>
@@ -46,8 +46,8 @@ export const cardData = [
     },
     {
         cardNo: 6,
-        heading: 'Heading 6',
-        description: 'Description 6',
+        heading: 'You get a promotion at work',
+        description: 'You question yourself and wonder when they\'ll realize you\'re an unqualified imposter, instead of trusting yourself & your abilities.',
         backgroundColor: '#eeebfe',
         svg:(
             <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="32" fill="#ffdd67" r="30"/><g transform="matrix(-1 0 0 1 64 0)"><circle cx="22.3" cy="31.6" fill="#664e27" r="5"/><path d="m51.2 27.5c-3.2-2.7-7.5-3.9-11.7-3.1-.6.1-1.1-2-.4-2.2 4.8-.9 9.8.5 13.5 3.6.6.5-1 2.1-1.4 1.7m-26.7-8.7c-4.2-.7-8.5.4-11.7 3.1-.4.4-2-1.2-1.4-1.7 3.7-3.2 8.7-4.5 13.5-3.6.7.2.2 2.3-.4 2.2" fill="#917524"/><path d="m50.2 34.3c-1.7-3.5-4.4-5.3-7-5.3s-5.2 1.8-7 5.3c-.2.4.7 1 1.2.6 1.7-1.3 3.7-1.8 5.8-1.8s4.1.5 5.8 1.8c.4.3 1.3-.3 1.2-.6m-6.1 7.9c-6.9 3.6-16.4 2.9-19.1 2.9-.7 0-1.2.3-1 .9 2 7 17 7 21.1-2.7.5-1.1-.3-1.4-1-1.1" fill="#664e27"/></g></svg>

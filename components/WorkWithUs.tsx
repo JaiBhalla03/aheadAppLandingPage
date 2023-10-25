@@ -27,6 +27,24 @@ const WorkWithUs = () => {
             }
         }
     }
+
+    const imageVariant = {
+        hidden :{
+            scale: 0.5,
+            rotate: 45
+        },
+        visible: {
+            scale: 1,
+            rotate: 0,
+            transition: {
+                duration: 0.5,
+                delay: 0.6,
+                type: 'spring',
+                stiffness: 100
+            }
+        }
+    }
+
     const headingVariants2 = {
         hidden :{
             scaleX: 0,
@@ -66,8 +84,18 @@ const WorkWithUs = () => {
                     </div>
                     <div className={'flex flex-col lg:flex-row w-full'}>
                         <div className={'w-full lg:w-1/2 bg-white h-fit pt-10 rounded-[2rem] mt-10 flex flex-col gap-4'}>
-                            <div className={'flex justify-center md:justify-start md:px-14'}>
-                                <Image src={ghost} alt={''} className={'w-14 h-16'}/>
+                            <div
+                                className={'flex justify-center md:justify-start md:px-14'}
+                            >
+                                <motion.div
+                                    className={'w-fit'}
+                                    ref={ref}
+                                    initial="hidden"
+                                    animate={inView ? 'visible' : 'hidden'}
+                                    variants={imageVariant}
+                                >
+                                    <Image src={ghost} alt={''} className={'w-14 h-16'}/>
+                                </motion.div>
                             </div>
                             <div className={'flex flex-col items-center md:items-start gap-2 px-4 md:px-14'}>
                                 <div className={'font-semibold text-2xl'}>About</div>
