@@ -51,7 +51,7 @@ export default function Home() {
   return (
     <main className={'overflow-hidden'}>
         <motion.div
-            className='cursor'
+            className='hidden sm:block cursor'
             variants={cursorVariants}
             animate={cursorVariant}
         />
